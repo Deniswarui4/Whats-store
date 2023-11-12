@@ -82,16 +82,24 @@ const RootLayout = async ({children}: {children: React.ReactNode}) => {
             <footer className="px-4">
               {/* Inicio de copyright - Cambiar el contenido de los mismos viola el contenido de los terminos de licencia */}
               <p className="sm:text-md border-t py-4 text-center text-sm text-muted-foreground">
-                © Copyright {new Date().getFullYear()}. Made with <ThemeToggle /> y Sveltekit.js, by{" "}
+                © Copyright {new Date().getFullYear()}. Made with <ThemeToggle /> y Sveltekit, por{" "}
                 <a
                   className="underline"
-                  href="https://www.instagram.com/warui_denis/"
+                  href="https://twitter.com/goncy"
                   rel="noopener noreferrer"
                   target="_blank"
                 >
-                  Warui Denis
+                  goncy
                 </a>
-                .
+                . Implementado por  
+                <a
+                  className="underline"
+                  href="https://instagram.com/bedenkerlabs"
+                  rel="noopener noreferrer"
+                  target="_blank"
+                >
+                  Bedenker Labs
+                </a>
               </p>
               {/* Fin de copyright */}
             </footer>

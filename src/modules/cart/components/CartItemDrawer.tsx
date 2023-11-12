@@ -127,7 +127,7 @@ function CartItemDrawer({
               <p>{total}</p>
             </div>
             <Button className="w-full" size="lg" variant="brand" onClick={() => onSubmit(formData)}>
-              Add to order
+              Agregar al pedido
             </Button>
           </div>
         </SheetFooter>
