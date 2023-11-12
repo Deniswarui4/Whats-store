@@ -102,7 +102,7 @@ function CartProviderClient({
         {Boolean(quantity) && (
           <div className="sticky bottom-0 flex content-center items-center pb-4 sm:m-auto">
             <Button
-              aria-label="Ver pedido"
+              aria-label="View order"
               className="m-auto w-full shadow-lg sm:w-fit"
               data-testid="show-cart"
               size="lg"
@@ -111,7 +111,7 @@ function CartProviderClient({
             >
               <div className="flex items-center gap-6">
                 <div className="flex items-center gap-3">
-                  <p className="leading-6">Ver pedido</p>
+                  <p className="leading-6">View order</p>
                   <p className="rounded-sm bg-black/25 px-2 py-1 text-xs font-semibold text-white/90">
                     {quantity} item
                   </p>

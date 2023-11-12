@@ -1,6 +1,6 @@
 export function parseCurrency(value: number): string {
-  return new Intl.NumberFormat("es-AR", {
+  return new Intl.NumberFormat("e-gb", {
     style: "currency",
-    currency: "ARS",
+    currency: "KES",
   }).format(value);
 }

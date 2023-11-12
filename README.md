@@ -1,6 +1,7 @@
+
 ---
 
-# Commercency
+# Whatsapp Store
 Ecommerce, simple.
 
 ## How do I use it?
