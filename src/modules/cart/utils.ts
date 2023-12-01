@@ -39,7 +39,7 @@ export function getCartMessage(cart: Cart, checkout: Checkout): string {
     .map(([key, value]) => `* ${key}: ${value}`)
     .join("\n");
     const total = `Total: ${parseCurrency(getCartTotal(cart))}`;
-    const powered = `Here's our location: https://maps.app.goo.gl/7B9A48LRvyxs8Urv5 , Thank you so much.`;
+    const powered = `Here's our location: https://maps.app.goo.gl/HuHw8DzS2j1zPjaB7 , Thank you so much.`;
 
   return [whatsmessages, items, fields, total, powered].join("\n\n");
 }
