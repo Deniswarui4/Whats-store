@@ -24,7 +24,7 @@ export function getCartItemOptionsSummary(options: CartItem["options"]): string 
 }
 
 export function getCartMessage(cart: Cart, checkout: Checkout): string {
-  const whatsmessages = `*Hello, There Honokia, I want to place the order for:*`;
+  const whatsmessages = `*Hello, there ModernTech, I want to place the order for:*`;
   const items = Array.from(cart.values())
     .map(
       (item) =>
@@ -39,7 +39,7 @@ export function getCartMessage(cart: Cart, checkout: Checkout): string {
     .map(([key, value]) => `* ${key}: ${value}`)
     .join("\n");
     const total = `Total: ${parseCurrency(getCartTotal(cart))}`;
-    const powered = `Here's our <a href="https://maps.app.goo.gl/urFphVLLji9iWiND7">location</a> , Thank you so much.`;
+    const powered = `Here's our location: https://maps.app.goo.gl/7B9A48LRvyxs8Urv5 , Thank you so much.`;
 
   return [whatsmessages, items, fields, total, powered].join("\n\n");
 }
